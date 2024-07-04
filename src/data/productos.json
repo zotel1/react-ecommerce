@@ -1,0 +1,35 @@
+[{
+    "id": 1,
+    "title": "Lavandina Común",
+    "image": "/lavandina-comun.jpeg",
+    "price": "$ 1000",
+    "description": "Botella de lavandina común a solo $1000 pesos."
+ },
+ {
+    "id": 2,
+    "title": "Lavandina Ropa Color",
+    "image": "/lavandina-ropa-color.jpeg",
+    "price": "$ 1500",
+    "description": "Botella de lavandina ropa color a solo $1500 pesos."
+ },
+ {
+    "id": 3,
+    "title": "Jabón liquido Ariel",
+    "image": "/jabon-liquido-ariel.jpeg",
+    "price": "$ 3000",
+    "description": "Botella de jabón liquido para ropas marca ariel a solo $3000 pesos."
+ },
+ {
+    "id": 4,
+    "title": "Suavizante Vivere",
+    "image": "/suavizante-vivere.jpeg",
+    "price": "$ 3000",
+    "description": "Botella de suavizante para ropas marca vivere a solo $3000 pesos."
+ },
+ {
+    "id": 5,
+    "title": "Citronela",
+    "image": "/citronella.jpeg",
+    "price": "$ 1200",
+    "description": "Botella de desodorante para pisos citronela a solo $1200 pesos."
+ }]
