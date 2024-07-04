@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
-import pedirProductos from "./pedirProductos";
+import {pedirDatos} from "../helpers/pedirDatos";
 
 const ItemListContainer = () => {
 
     const [productos, setProductos] = useState([]);
 
     useEffect(() => {
-        pedirProductos()
+        pedirDatos()
         .then((res) => {
             setProductos(res);
         })
