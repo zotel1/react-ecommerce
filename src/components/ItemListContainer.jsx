@@ -4,6 +4,8 @@ import { useParams } from "react-router-dom";
 
 const ItemListContainer = () => {
 
+    console.log('Renderizando ItemListContainer');
+
     const [productos, setProductos] = useState([]);
     const [titulo, setTitulo] = useState("Productos");
     const categoria = useParams().categoria;
