@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import {pedirDatos} from "../helpers/pedirDatos";
 import { useParams } from "react-router-dom";
+import ItemList from "./ItemList";
 
 const ItemListContainer = () => {
 
@@ -25,9 +26,10 @@ const ItemListContainer = () => {
 
     return (
         <div>
-            <ItemListContainer productos={productos} titulo={titulo}/>
+            <ItemList productos={productos} titulo={titulo}/>
         </div>
     )
+    
 }
 
 export default ItemListContainer;
