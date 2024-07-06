@@ -1,40 +1,45 @@
 [{
     "id": 1,
     "title": "Lavandina Común",
-    "image": "images/lavandina-comun.jpeg",
+    "imagen": "images/lavandina-comun.jpeg",
     "price": "$ 1000",
     "categoria": "Lavandina",
-    "description": "Botella de lavandina común a solo $1000 pesos."
+    "description": "Botella de lavandina común a solo $1000 pesos.",
+    "stock": 10
  },
  {
     "id": 2,
-    "title": "Lavandina Ropa Color",
-    "image": "images/lavandina-ropa-color.jpeg",
-    "price": "$ 1500",
+    "titulo": "Lavandina Ropa Color",
+    "imagen": "images/lavandina-ropa-color.jpeg",
+    "precio": "$ 1500",
     "categoria": "Lavandina",
-    "description": "Botella de lavandina ropa color a solo $1500 pesos."
+    "description": "Botella de lavandina ropa color a solo $1500 pesos.",
+    "stock": 10
  },
  {
     "id": 3,
     "title": "Jabón liquido Ariel",
-    "image": "images/jabon-liquido-ariel.jpeg",
+    "imagen": "images/jabon-liquido-ariel.jpeg",
     "price": "$ 3000",
     "categoria": "Jabon Liquido",
-    "description": "Botella de jabón liquido para ropas marca ariel a solo $3000 pesos."
+    "description": "Botella de jabón liquido para ropas marca ariel a solo $3000 pesos.",
+    "stock": 10
  },
  {
     "id": 4,
     "title": "Suavizante Vivere",
-    "image": "images/suavizante-vivere.jpeg",
+    "imagen": "images/suavizante-vivere.jpeg",
     "price": "$ 3000",
     "categoria": "Suavizante",
-    "description": "Botella de suavizante para ropas marca vivere a solo $3000 pesos."
+    "description": "Botella de suavizante para ropas marca vivere a solo $3000 pesos.",
+    "stock": 10
  },
  {
     "id": 5,
     "title": "Citronela",
-    "image": "images/citronella.jpeg",
+    "imagen": "images/citronella.jpeg",
     "price": "$ 1200",
     "categoria": "Desodorante",
-    "description": "Botella de desodorante para pisos citronela a solo $1200 pesos."
+    "description": "Botella de desodorante para pisos citronela a solo $1200 pesos.",
+    "stock": 10
  }]
