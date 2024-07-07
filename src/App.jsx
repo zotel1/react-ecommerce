@@ -7,6 +7,7 @@ import "./main.css";
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Contacto from './components/Contacto';
 import { CartProvider } from './context/CartContext';
+import Carrito from './components/Carrito';
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
             <Route path='/productos/:categoria' element={<ItemListContainer />}></Route>
             <Route path='/nosotros' element={<Nosotros/>}></Route>
             <Route path='/contacto' element={<Contacto/>}></Route>
-            <Route path='/carrito' element={<Contacto />}></Route>  
+            <Route path='/carrito' element={<Carrito />}></Route>  
         </Routes>
         </BrowserRouter>
           </CartProvider>
