@@ -1,8 +1,11 @@
+import { CardContext } from "../context/CardContext";
 import {toCapital} from "../helpers/toCapital"
 import ItemCount from "./ItemCount";
-import { useState } from "react";
+import { useContext, useState } from "react";
 
 const ItemDetail = ( {item} ) => {
+
+    const [carrito, setCarrito] = useContext(CardContext);
 
     const [cantidad, setCantidad] = useState(1);
 
