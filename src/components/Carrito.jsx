@@ -1,10 +1,10 @@
 import { useContext } from "react";
-import { CardContext } from "../context/CartContext";
+import { CartContext } from "../context/CartContext";
 import { Link } from "react-router-dom";
 
 const Carrito = () => {
 
-    const { carrito, precioTotal, vaciarCarrito } = useContext(CardContext);
+    const { carrito, precioTotal, vaciarCarrito } = useContext(CartContext);
     const handleVaciar = () => {
         vaciarCarrito();
     }
