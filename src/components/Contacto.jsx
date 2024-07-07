@@ -5,6 +5,7 @@ const Contacto = () => {
     const {register, handleSubmit} = useForm();
 
     const enviar = (data) => {
+        
         console.log(data)
     }
 
