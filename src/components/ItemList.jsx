@@ -5,7 +5,7 @@ const ItemList = ( {productos, titulo} ) => {
     return (
         <div className="container">
             <h2 className="main-title">{toCapital(titulo)}</h2>
-            <div>
+            <div className="productos">
                 { productos.map((prod) => <Item key={prod.id} producto={prod} />) }
             </div>
         </div>
