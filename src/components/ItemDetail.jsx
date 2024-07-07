@@ -2,7 +2,7 @@ import {toCapital} from "../helpers/toCapital"
 import ItemCount from "./ItemCount";
 import { useState } from "react";
 
-const ItemDetail = ( {item, producto} ) => {
+const ItemDetail = ( {item} ) => {
 
     const [cantidad, setCantidad] = useState(1);
 
@@ -27,7 +27,7 @@ const ItemDetail = ( {item, producto} ) => {
                 <h3 className="titulo">{item.titulo}</h3>
                 <p className="descripcion">{item.descripcion}</p>
                 <p className="categoria">Categoría: {toCapital(item.categoria)}</p>
-                <p className="precio">${item.precio}</p>
+                <p className="precio">{item.precio}</p>
                 <ItemCount item={item} cantidad={cantidad} handleRestar={handleRestar} handleSumar={handleSumar}
                 handleAgregar={handleAgregar} />
             </div>

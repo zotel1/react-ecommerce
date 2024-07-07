@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Nosotros from './components/Nosotros';
 import "./main.css";
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Contacto from './components/Contacto';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
             <Route path='/productos/' element={<ItemListContainer />}></Route>
             <Route path='/productos/:categoria' element={<ItemListContainer />}></Route>
             <Route path='/nosotros' element={<Nosotros/>}></Route>
+            <Route path='/contacto' element={<Contacto/>}></Route> 
         </Routes>
         </BrowserRouter>
     </div>
