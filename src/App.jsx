@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import ItemDetailContainer from './components/ItemDetailContainer';
 import ItemListContainer from './components/ItemListContainer';
 import Navbar from './components/Navbar';
@@ -6,16 +6,12 @@ import Nosotros from './components/Nosotros';
 import "./main.css";
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Contacto from './components/Contacto';
-import { CardContext } from './context/CardContext';
+import { CartProvider } from './context/CartContext';
 
 function App() {
-
-    const [carrito, setCarrito] = useState();
-
-
   return (
     <div>
-        <CardContext.Provider value={{carrito, setCarrito}}>
+        <CartProvider>
         <BrowserRouter>
         <Navbar/>
         <Routes>
@@ -28,7 +24,7 @@ function App() {
             <Route path='/carrito' element={<Contacto />}></Route>  
         </Routes>
         </BrowserRouter>
-          </CardContext.Provider>
+          </CartProvider>
     </div>
   );
 }
