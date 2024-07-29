@@ -411,3 +411,43 @@
         aspect-ratio: 1/1;
     }
 }
+
+@media screen and (max-width: 375px) {
+    .navbar {
+        padding: 1rem;
+    }
+
+    .logo {
+        font-size: 1.5rem;
+    }
+
+    .menu {
+        gap: 0.5rem;
+    }
+
+    .menu-link {
+        font-size: 0.9rem;
+    }
+
+    .productos {
+        gap: 1rem;
+        padding-block: 1rem;
+    }
+
+    .producto {
+        border-radius: 0.5rem;
+    }
+
+    .producto>div {
+        padding: 0.5rem;
+    }
+
+    .producto .ver-mas {
+        padding: 0.3rem;
+        font-size: 0.9rem;
+    }
+
+    .producto img {
+        aspect-ratio: 1.5/1;
+    }
+}
